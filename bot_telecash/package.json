@@ -4,5 +4,8 @@
   "description": "bot telecash for telegram",
   "main": "bot.js",
   "author": "gustavo herrera",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
 }
