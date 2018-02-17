@@ -22,3 +22,12 @@ bot.on('message', (msg) => {
 		bot.sendMessage(msg.chat.id, "Hola, soy TelecashBot en que puedo ayudarte?");
 	}
 });
+
+bot.onText(/^\/say_hello (.+)$/, function(msg, match){
+	var name = match[1];
+	bot.sendMessage(msg.chat.id, 'Hola ' + name + '!').then(function () {
+		//reply sent
+	})
+})
+
+console.log('bot server started');
