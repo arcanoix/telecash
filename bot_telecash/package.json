@@ -2,10 +2,14 @@
   "name": "bot_telecash",
   "version": "1.0.0",
   "description": "bot telecash for telegram",
-  "main": "bot.js",
+  "main": "index.js",
   "author": "gustavo herrera",
   "license": "ISC",
+  "scripts": {
+  "start": "node ."
+    },
   "dependencies": {
-    "node-telegram-bot-api": "^0.30.0"
+    "node-telegram-bot-api": "^0.30.0",
+    "express": "^4.16.2"
   }
 }
