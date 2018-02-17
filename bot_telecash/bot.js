@@ -1,7 +1,7 @@
-const TelecashBot = require('node-telegram-bot-api');
+var TelecashBot = require('node-telegram-bot-api');
 
 // API Token Telegram
-const token = '387891084:AAHdWtp9-HGPQmvYs07HXJzMtmQ3OTX-0mM';
+var token = '387891084:AAHdWtp9-HGPQmvYs07HXJzMtmQ3OTX-0mM';
 
 // creamos un bot que usa 'polling' para obtener actualizaciones
 const bot = new TelecashBot(token, { polling: true});

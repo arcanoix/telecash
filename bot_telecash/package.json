@@ -6,10 +6,10 @@
   "author": "gustavo herrera",
   "license": "ISC",
   "scripts": {
-  "start": "node ."
-    },
+    "start": "node ."
+  },
   "dependencies": {
-    "node-telegram-bot-api": "^0.30.0",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "node-telegram-bot-api": "^0.30.0"
   }
 }
