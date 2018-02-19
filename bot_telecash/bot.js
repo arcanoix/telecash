@@ -1,7 +1,9 @@
 var TelecashBot = require('node-telegram-bot-api');
+		var	env = require('dotenv').config();
 
 // API Token Telegram
-var token = '387891084:AAHdWtp9-HGPQmvYs07HXJzMtmQ3OTX-0mM';
+var token = process.env.API_TOKEN;
+
 
 // creamos un bot que usa 'polling' para obtener actualizaciones
 const bot = new TelecashBot(token, { polling: true});
